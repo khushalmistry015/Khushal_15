@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+</head>
+
+<body>
+
+    <h1>Student Attendance System</h1>
+
+    <form>
+
+        <label for="date">Attendance Date:</label>
+        <input type="date" id="date" name="date">
+
+        <br><br>
+
+        <table border="1" cellpadding="10">
+            <tr>
+                <th>Roll No.</th>
+                <th>Student Name</th>
+                <th>Attendance</th>
+            </tr>
+
+            <tr>
+                <td>101</td>
+                <td>Rahul Sharma</td>
+                <td>
+                    <input type="radio" name="student101" value="present" id="p101">
+                    <label for="p101">Present</label>
+
+                    <input type="radio" name="student101" value="absent" id="a101">
+                    <label for="a101">Absent</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>Priya Patel</td>
+                <td>
+                    <input type="radio" name="student102" value="present" id="p102">
+                    <label for="p102">Present</label>
+
+                    <input type="radio" name="student102" value="absent" id="a102">
+                    <label for="a102">Absent</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>103</td>
+                <td>Amit Kumar</td>
+                <td>
+                    <input type="radio" name="student103" value="present" id="p103">
+                    <label for="p103">Present</label>
+
+                    <input type="radio" name="student103" value="absent" id="a103">
+                    <label for="a103">Absent</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>104</td>
+                <td>Neha Singh</td>
+                <td>
+                    <input type="radio" name="student104" value="present" id="p104">
+                    <label for="p104">Present</label>
+
+                    <input type="radio" name="student104" value="absent" id="a104">
+                    <label for="a104">Absent</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>105</td>
+                <td>Rohan Verma</td>
+                <td>
+                    <input type="radio" name="student105" value="present" id="p105">
+                    <label for="p105">Present</label>
+
+                    <input type="radio" name="student105" value="absent" id="a105">
+                    <label for="a105">Absent</label>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <input type="submit" value="Save Attendance">
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <hr>
+
+    <h2>Attendance Summary</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Total Students</th>
+            <th>Present</th>
+            <th>Absent</th>
+            <th>Attendance Percentage</th>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0%</td>
+        </tr>
+    </table>
+
+</body>
+</html>
